@@ -1,5 +1,6 @@
 import "./App.css"
 import Bar from "./component/bar";
+import CandleStick from "./component/CandleStick";
 import Line from './component/line';
 import MultipleBar from "./component/multipleBar";
 import Scatter from "./component/Scatter";
@@ -11,9 +12,9 @@ function App() {
       <Bar />
       <MultipleBar />
       <Scatter />
-      <footer>
+      <CandleStick />
 
-      </footer>
+      <footer></footer>
     </>
   )
 }
