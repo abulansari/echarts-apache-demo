@@ -7,5 +7,27 @@
   border: 1px solid black;
   padding: 40px;
   width: 80%;
-  margin-top: 100px;
+  margin-top: 200px;
+}
+
+.echarts-sub {
+  display: flex;
+  justify-content: center;
+}
+input {
+  height: 30px;
+}
+button {
+  margin-left: 40px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.echarts-multiple {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  height: 300px;
 }
